@@ -1,8 +1,7 @@
-/*
-Crie um objeto chamado Venda com as propriedades produto, quantidade,
-precoUnitario e desconto. Adicione um método chamado calcularTotal que calcule o
-valor total da venda, considerando o desconto. Adicione também um método chamado
-detalharVenda que retorne uma string detalhando a venda.
+/* 
+Adicione um método ao objeto Venda chamado atualizarQuantidade que
+recebe um número e altera a quantidade do produto na venda. Atualize a quantidade e
+verifique o total da venda após a atualização.
 */
 
 let venda = {
@@ -13,7 +12,9 @@ let venda = {
 
   // Método para calcular o total considerando o desconto
   calcularTotal() {
-    return this.quantidade * this.precoUnitario - this.desconto;
+    return (
+      this.quantidade * this.precoUnitario - this.desconto * this.precoUnitario
+    );
   },
 
   // Método para detalhar a venda
@@ -25,14 +26,20 @@ let venda = {
       `Desconto: R$ ${this.desconto.toFixed(2)}`
     );
   },
+
+  aplicarDesconto(novoDesconto) {
+    this.desconto = novoDesconto / 100;
+  },
+
+  atualizarQuantidade(novaQuantidade) {
+    this.quantidade = novaQuantidade;
+  },
 };
 
-// Atribuindo valores às propriedades
 venda.produto = "TV";
-venda.quantidade = 5;
-venda.precoUnitario = 2999.99;
-venda.desconto = 250;
+venda.precoUnitario = 1999.99;
 
-// Exibindo os detalhes da venda
+venda.atualizarQuantidade = 2;
+venda.aplicarDesconto(10);
 console.log(venda.detalharVenda());
 console.log(`Total: R$ ${venda.calcularTotal().toFixed(2)}`);
