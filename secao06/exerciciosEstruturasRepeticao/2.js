@@ -4,8 +4,15 @@ Você deseja criar um cardápio digital para sua lanchonete. Crie um programa qu
 juntamente com seus preços. Utilize um loop for para percorrer o cardápio e exibi-lo.
 */
 
-const cardapio = [{nome: "X-Tudo", preco: 39.99}, {nome: "X-Bacon", preco: 29.99}, {nome: "X-Egg", preco: 19.99}, {nome: "Hotdog", preco: 15.99}, ];
+const cardapio = [
+  { nome: "X-Tudo", preco: 39.99 },
+  { nome: "X-Bacon", preco: 29.99 },
+  { nome: "X-Egg", preco: 19.99 },
+  { nome: "Hotdog", preco: 15.99 },
+];
 
 for (let index = 0; index < cardapio.length; index++) {
-    console.log(`Item ${index + 1}: ${cardapio[index].nome}: R$ ${cardapio[index].preco}`);
+  console.log(
+    `Item ${index + 1}: ${cardapio[index].nome}: R$ ${cardapio[index].preco}`
+  );
 }

@@ -6,11 +6,20 @@ semana. Crie um programa que calcule o valor total das vendas em uma semana.
 */
 
 const precoHamburguer = 10;
-const vendasSemana = [5, 4, 8, 6, 25, 30, 38];
+const vendasSemana = [
+  { dia: "Segunda-Feira", totalVendas: 5 },
+  { dia: "Terça-Feira", totalVendas: 6 },
+  { dia: "Quarta-Feira", totalVendas: 10 },
+  { dia: "Quinta-Feira", totalVendas: 7 },
+  { dia: "Sexta-Feira", totalVendas: 30 },
+  { dia: "Sábado", totalVendas: 50 },
+  { dia: "Domingo", totalVendas: 52 },
+];
+
 let valorTotalDeVendas = 0.0;
 
 for (let index = 0; index < 7; index++) {
-    valorTotalDeVendas += vendasSemana[index] * 10;
+  valorTotalDeVendas += vendasSemana[index].totalVendas * 10;
 }
 
 console.log(`Valor de vendas na semana foi de R$${valorTotalDeVendas}`);
