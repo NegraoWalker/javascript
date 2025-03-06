@@ -1,0 +1,13 @@
+#meuElemento {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+}
+
+.quadrado {
+    border-radius: 0%;
+}
+
+.circulo {
+    border-radius: 100%;
+}
