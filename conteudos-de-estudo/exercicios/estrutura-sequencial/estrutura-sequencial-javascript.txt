@@ -1,0 +1,45 @@
+Exercício 1 – Soma de Dois Números
+Enunciado:
+Crie um programa que solicite ao usuário dois números e exiba a soma deles.
+
+Exercício 2 – Média de Três Números
+Enunciado:
+Desenvolva um programa que leia três números e exiba a média aritmética.
+
+Exercício 3 – Conversão de Temperatura (Celsius para Fahrenheit)
+Enunciado:
+Crie um programa que leia uma temperatura em graus Celsius e converta para Fahrenheit, utilizando a fórmula:
+Fahrenheit = (Celsius * 9/5) + 32.
+
+Exercício 4 – Cálculo da Área de um Círculo
+Enunciado:
+Crie um programa que solicite o valor do raio de um círculo e exiba a área. Utilize a fórmula:
+Área = π * raio²
+(Considere π ≈ 3.14).
+
+Exercício 5 – Conversão de Metros para Centímetros
+Enunciado:
+Crie um programa que leia um valor em metros e converta para centímetros (1 metro = 100 centímetros).
+
+Exercício 6 – Cálculo do Perímetro de um Retângulo
+Enunciado:
+Desenvolva um programa que solicite a base e a altura de um retângulo e calcule seu perímetro utilizando a fórmula:
+Perímetro = 2 * (base + altura).
+
+Exercício 7 – Conversão de Reais para Dólares
+Enunciado:
+Crie um programa que leia um valor em reais e converta para dólares, considerando uma taxa de câmbio fixa (exemplo: 1 dólar = 5.00 reais).
+
+Exercício 8 – Cálculo do Salário Líquido
+Enunciado:
+Desenvolva um programa que receba o salário bruto e a porcentagem de descontos. Calcule e exiba o salário líquido.
+Fórmula: salário líquido = salário bruto - (salário bruto * (descontos/100)).
+
+Exercício 9 – Conversão de Minutos para Segundos
+Enunciado:
+Crie um programa que leia um valor em minutos e exiba o equivalente em segundos (1 minuto = 60 segundos).
+
+Exercício 10 – Cálculo do IMC (Índice de Massa Corporal)
+Enunciado:
+Desenvolva um programa que leia o peso (em kg) e a altura (em metros) de uma pessoa e calcule o IMC utilizando a fórmula:
+IMC = peso / (altura * altura).
