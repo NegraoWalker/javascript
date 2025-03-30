@@ -1,0 +1,1 @@
+let nomeDoProduto, precoDoProduto, qtdEmEstoque;
