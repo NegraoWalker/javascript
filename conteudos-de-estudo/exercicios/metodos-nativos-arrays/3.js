@@ -1,0 +1,1 @@
+const vetor = ["Caderno", "Lápis", "Estojo"];
