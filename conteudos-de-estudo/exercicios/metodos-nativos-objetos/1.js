@@ -2,10 +2,10 @@ const venda = {
     produto: "TV",
     quantidade: 1,
     precoUnitario: 1999.89,
-    desconto: "0.1",
+    desconto: 5,
 
     calcularTotal() {
-        return this.quantidade * this.precoUnitario - this.desconto;
+        return this.quantidade * this.precoUnitario - (this.desconto / 100) * this.precoUnitario;
     },
 
     detalharVenda() {
