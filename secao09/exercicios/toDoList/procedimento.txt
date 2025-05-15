@@ -1,5 +1,0 @@
-1. Criar o elemento ul, li e o texto da tarefa ao apertar o botão adicionar:
-    1.1 Adicionar o evento onClick no HTML;
-    1.2 Implementar a função adicionarTarefa;
-    1.3 Adicionar a classe para o elemento criado;
-2. Implementar a função removeTarefa ao apertar o botão remover;
