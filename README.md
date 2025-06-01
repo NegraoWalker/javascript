@@ -1,1 +1,1 @@
-Repositório criado para o aprendizado a linguagem JavaScript
+REPOSITÓRIO CRIADO PARA O APRENDIZADO DA LINGUAGEM JAVASCRIPT
