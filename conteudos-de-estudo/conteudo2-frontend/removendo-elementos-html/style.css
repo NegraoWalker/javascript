@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}
+.conteudo {
+    max-width: 500px;
+    margin:  auto;
+    padding: 20px;
+}
+#btn1 {
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+#btn2 {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
